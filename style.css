@@ -1,0 +1,77 @@
+* {
+    font-family: 'Itim', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+#inputField {
+    font-size: 32px;
+    font-family: 'Itim', cursive;
+    outline: none;
+    border: 3px black solid;
+    background-color: white;
+}
+
+#addButton {
+    font-size: 32px;
+    margin-left: 10px;
+    outline: none;
+    border: 3px black solid;
+    background-color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#addButton:hover {
+    background-color: green;
+    color: white;
+}
+
+li {
+    font-size: 32px;
+}
+
+#deleteButton {
+    font-size: 32px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+#completedButton {
+    font-size: 32px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+#deleteButton:hover {
+    color: red;
+}
+
+#completedButton:hover {
+    color: green;
+}
